@@ -55,7 +55,7 @@ function! s:previous_unclosed_tag()
 endfunction
 
 function! s:append_closing_tag(opening_tag)
-  execute "normal! a".s:closing_tag(a:opening_tag)
+  execute "normal! i".s:closing_tag(a:opening_tag)
 endfunction
 
 
